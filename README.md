@@ -43,3 +43,7 @@ Jangan menaruh API secret di aplikasi Android. Gunakan backend/server perantara 
 
 ## Catatan metodologi
 Sinyal hanya alat bantu probabilistik. Backtest, biaya transaksi, slippage, likuiditas, spread, suspensi saham, dan validasi out-of-sample harus ditambahkan sebelum penggunaan nyata. Gunakan candle yang sudah selesai agar sinyal tidak berubah-ubah di tengah candle.
+=======
+# stock-buy-signal
+Aplikasi analisis teknikal saham BEI berbasis Flutter
+>>>>>>> 32462da70236ceb5319e567d4f4d195d2716262b
