@@ -118,7 +118,7 @@ class TechnicalAnalyzer {
 
     return AnalysisResult(
       signal: signal, score: score, rsi: rsi, ema9: ema9, ema21: ema21,
-      macd: macd, macdSignal: macdSignal, volumeRatio: volumeRatio,
+macd: macd, macdSignal: macdSignal, volumeRatio: volumeRatio.toDouble(),      macd: macd, macdSignal: macdSignal, volumeRatio: volumeRatio,
       bullishCandle: bullishCandle, reasons: reasons,
     );
   }
