@@ -30,6 +30,9 @@ jobs:
       - name: Generate Android project
         run: flutter create . --platforms=android --project-name stock_buy_signal
 
+      - name: Remove generated sample test
+        run: rm -f test/widget_test.dart
+
       - name: Install dependencies
         run: flutter pub get
 
